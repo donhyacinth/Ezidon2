@@ -1,0 +1,16 @@
+<resources>
+    <color name="primary_red">#D32F2F</color>
+    <color name="dark_red">#B71C1C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#DDDDDD</color>
+    <color name="medium_gray">#555555</color>
+    <color name="background_gradient_start">#B71C1C</color>
+    <color name="background_gradient_end">#D32F2F</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+    <!-- Add these colors to your existing colors.xml file -->
+    <color name="light_brown">#D2B48C</color>
+    <color name="light_brown_darker">#B8A082</color>
+    <color name="light_brown_lighter">#DCC0A0</color>
+    <color name="light_brown_border">#A0896B</color>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Map Image -->
+    <ImageView
+        android:id="@+id/background_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/world_map_background"
+        android:contentDescription="World map background" />
+
+    <!-- Semi-transparent overlay for better text readability -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <!-- Main content in a ScrollView for better UX -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Navigation Spinner -->
+            <Spinner
+                android:id="@+id/spinnerNav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/navigation_options"
+                android:spinnerMode="dropdown"
+                android:layout_gravity="end"
+                android:background="@drawable/rounded_spinner"
+                android:padding="8dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Main Site Image with simple styling -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                android:background="#22FFFFFF"
+                android:padding="8dp">
+
+                <!-- Zoomable Image -->
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/photoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/site_tower_paris_title"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+
+            <!-- Content container with simple background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="261dp"
+                android:background="#CC000000"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvSiteTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/site_tower_paris_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSiteDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/site_tower_paris_description"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvSiteFacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_tower_paris_fact"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/tvSiteLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_tower_paris_line1"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/tvSiteLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_tower_paris_line2"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/tvSiteLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_tower_paris_line3"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/tvSiteLine4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_tower_paris_line4"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
