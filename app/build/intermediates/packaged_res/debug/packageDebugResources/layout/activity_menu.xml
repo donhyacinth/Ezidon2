@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_travel"
+    android:padding="16dp">
+
+    <!-- Top Navigation Spinner -->
+    <Spinner
+        android:id="@+id/spinnerNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/navigation_options"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="end"
+        android:background="@drawable/rounded_spinner"
+        android:padding="13dp"/>
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"
+        android:background="@drawable/search_bar_bg"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="8dp"/>
+
+
+    <!-- Grid Layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignBounds">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgSite1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/site_tower_paris_title" />
+
+                <TextView
+                    android:id="@+id/tvSite1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/site_tower_paris_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnViewSite1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:text="@string/view_button"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <!-- Site 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgSite2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/great_wall_china" />
+
+                <TextView
+                    android:id="@+id/tvSite2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/site_great_wall_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnViewSite2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:text="@string/view_button"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <!-- Site 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pyramids_egypt"/>
+
+                <TextView
+                    android:id="@+id/tvSite3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_pyramids_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 4 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/machu_picchu" />
+
+                <TextView
+                    android:id="@+id/tvSite4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/site_machu_picchu_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnViewSite4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 5 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/taj_mahal"/>
+
+                <TextView
+                    android:id="@+id/tvSite5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_taj_mahal_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 6 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/statue_of_liberty"/>
+
+                <TextView
+                    android:id="@+id/tvSite6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_statue_liberty_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 7 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/colosseum_rome"/>
+
+                <TextView
+                    android:id="@+id/tvSite7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_colosseum_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 8 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite8"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sydney_opera_house"/>
+
+                <TextView
+                    android:id="@+id/tvSite8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_sydney_opera_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 9 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite9"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/christ_the_redeemer"/>
+
+                <TextView
+                    android:id="@+id/tvSite9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!-- Site 10 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/card_background"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgSite10"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mount_fuji"/>
+
+                <TextView
+                    android:id="@+id/tvSite10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_mount_title"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:id="@+id/btnViewSite10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_button"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#FFA500"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </GridLayout>
+
+    </ScrollView>
+
+</LinearLayout>

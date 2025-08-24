@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_app_logo.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/app_logo.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site8.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site8.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_splash.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_login.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_colosseum_rome.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/colosseum_rome.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_christ_the_redeemer.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/christ_the_redeemer.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_curved_logo_background.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/curved_logo_background.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site5.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site5.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_menu.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_sydney_opera_house.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/sydney_opera_house.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_great_wall_china.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/great_wall_china.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_lock.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_background_travel.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/background_travel.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site9.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site9.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_login_background.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/login_background.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_content_background.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/content_background.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_pyramids_egypt.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/pyramids_egypt.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_site_tower_paris_title.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/site_tower_paris_title.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_contact.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_search.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_search_bar_bg.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/search_bar_bg.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_rounded_button.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_machu_picchu.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/machu_picchu.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_mount_fuji.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/mount_fuji.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site6.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site6.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_email.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_rounded_edittext2.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/rounded_edittext2.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_rounded_spinner.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/rounded_spinner.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_ic_lock2.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/ic_lock2.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_curved_edges_logo.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/curved_edges_logo.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_world_map_background.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/world_map_background.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site3.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site3.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_card_background.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site2.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site2.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site7.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site7.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site10.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site10.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/anim_logo_anim.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/anim/logo_anim.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_rounded_edittext.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/rounded_edittext.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_statue_of_liberty.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/statue_of_liberty.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_taj_mahal.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/taj_mahal.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_about_us.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site4.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site4.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/drawable_login2_background.png.flat",
+        "source": "com.example.ezidon.app-main-33:/drawable/login2_background.png"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ezidon.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/anim_fade_out.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/layout_activity_site1.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/layout/activity_site1.xml"
+    },
+    {
+        "merged": "com.example.ezidon.app-release-32:/anim_name_slide_in.xml.flat",
+        "source": "com.example.ezidon.app-main-33:/anim/name_slide_in.xml"
+    }
+]

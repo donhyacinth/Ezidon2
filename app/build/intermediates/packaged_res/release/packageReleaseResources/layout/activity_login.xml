@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/login2_background">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="@string/wel"
+        android:textColor="#FFFFFF"
+        android:textSize="52sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Login Title -->
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/log"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:padding="14dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:paddingEnd="50dp"
+        android:drawableEnd="@drawable/ic_lock2"
+        android:drawablePadding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="40dp"/>
+
+    <ImageView
+        android:id="@+id/ivTogglePassword"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="6dp"
+        android:clickable="true"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="@string/btn_login"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:padding="14dp"
+        android:layout_marginBottom="25dp"/>
+
+    <!-- Sign Up Prompt -->
+    <TextView
+        android:id="@+id/tvSignUpPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/tv_signup_prompt"
+        android:textColor="#CCD1E4"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+</LinearLayout>

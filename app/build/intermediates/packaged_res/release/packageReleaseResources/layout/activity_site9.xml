@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Map Image -->
+    <ImageView
+        android:id="@+id/background_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/world_map_background"
+        android:contentDescription="World map background" />
+
+    <!-- Semi-transparent overlay for better text readability -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <!-- Main content in a ScrollView for better UX -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Navigation Spinner -->
+            <Spinner
+                android:id="@+id/spinnerNav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/navigation_options"
+                android:spinnerMode="dropdown"
+                android:layout_gravity="end"
+                android:background="@drawable/rounded_spinner"
+                android:padding="13dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Main Site Image with simple styling -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                android:background="#22FFFFFF"
+                android:padding="8dp">
+
+                <!-- Zoomable Image -->
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/photoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/christ_the_redeemer"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+
+            <!-- Content container with simple background -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CC000000"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvSiteTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_title"
+                    android:textSize="24sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvSiteDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_description"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvSiteFacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_fact"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:id="@+id/tvSiteLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_line1"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:id="@+id/tvSiteLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_line2"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:id="@+id/tvSiteLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_line3"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:id="@+id/tvSiteLine4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/site_christ_redeemer_line4"
+                    android:textColor="#FFD700"
+                    android:textSize="14sp"
+                    android:textStyle="italic"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
