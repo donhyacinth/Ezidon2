@@ -33,6 +33,7 @@
         Thank you for trusting us!
     </string>
     <string name="about_content1">Welcome to Ezidon Heritage Tourist!</string>
+    <string name="app_content">App logo"</string>
     <string name="app_name">Ezidon Heritage Tourist</string>
     <string name="btn_back_to_login">Go to Login</string>
     <string name="btn_login">Login</string>
@@ -40,6 +41,7 @@
     <string name="btn_submit">Submit</string>
     <string name="btn_view">View</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="content">World map background</string>
     <string name="hint_address">Enter your email address</string>
     <string name="hint_email">username</string>
     <string name="hint_first">FirstName</string>

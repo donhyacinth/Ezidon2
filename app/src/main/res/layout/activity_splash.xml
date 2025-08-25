@@ -13,8 +13,8 @@
         android:src="@drawable/app_logo"
         android:scaleType="centerCrop"
         android:background="@drawable/curved_edges_logo"
-        android:clipToOutline="true"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:contentDescription="@string/app_name"/>
 
     <!-- App Name (fade-in text) -->
     <TextView

@@ -132,6 +132,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string about_content
 string about_content1
+string app_content
 string app_name
 string btn_back_to_login
 string btn_login
@@ -139,6 +140,7 @@ string btn_signup
 string btn_submit
 string btn_view
 string confirm_password
+string content
 string hint_address
 string hint_email
 string hint_first

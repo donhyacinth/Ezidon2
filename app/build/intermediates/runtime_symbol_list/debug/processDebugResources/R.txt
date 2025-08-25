@@ -3963,6 +3963,7 @@ int string abc_toolbar_collapse_description 0x7f10001a
 int string about_content 0x7f10001b
 int string about_content1 0x7f10001c
 int string androidx_startup 0x7f10001d
+int string app_content 0x7f100104
 int string app_name 0x7f10001e
 int string appbar_scrolling_view_behavior 0x7f10001f
 int string bottom_sheet_behavior 0x7f100020
@@ -3988,6 +3989,7 @@ int string character_counter_overflowed_content_description 0x7f100033
 int string character_counter_pattern 0x7f100034
 int string clear_text_end_icon_content_description 0x7f100035
 int string confirm_password 0x7f100036
+int string content 0x7f100105
 int string error_a11y_label 0x7f100037
 int string error_icon_content_description 0x7f100038
 int string exposed_dropdown_menu_content_description 0x7f100039

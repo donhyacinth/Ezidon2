@@ -35,6 +35,9 @@
         <item>Logout</item>
     </string-array>
 
+    <string name="content">World map background</string>
+    <string name="app_content">App logo"</string>
+
 
 
     <string name="view_button">View</string>

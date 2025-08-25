@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/world_map_background"
-        android:contentDescription="World map background" />
+        android:contentDescription="@string/content" />
 
     <!-- Semi-transparent overlay for better text readability -->
     <View
@@ -52,14 +52,13 @@
 
 
                 <!-- Zoomable Image -->
-                <com.github.chrisbanes.photoview.PhotoView
+                <ImageView
                     android:id="@+id/photoView"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
                     android:src="@drawable/mount_fuji"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop" />
-
             </LinearLayout>
 
             <!-- Content container with simple background -->

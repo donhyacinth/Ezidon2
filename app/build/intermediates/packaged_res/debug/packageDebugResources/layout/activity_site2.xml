@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/world_map_background"
-        android:contentDescription="World map background" />
+        android:contentDescription="@string/content" />
 
     <!-- Semi-transparent overlay for better text readability -->
     <View
@@ -38,7 +38,7 @@
                 android:spinnerMode="dropdown"
                 android:layout_gravity="end"
                 android:background="@drawable/rounded_spinner"
-                android:padding="8dp"
+                android:padding="13dp"
                 android:layout_marginBottom="16dp"/>
 
             <!-- Main Site Image with simple styling -->
@@ -51,7 +51,7 @@
                 android:padding="8dp">
 
                 <!-- Zoomable Image -->
-                <com.github.chrisbanes.photoview.PhotoView
+                <ImageView
                     android:id="@+id/photoView"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
